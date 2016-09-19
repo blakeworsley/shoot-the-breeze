@@ -1,0 +1,36 @@
+@import "./variables";
+
+.send-message-container {
+  background-color: $main-dark-color;
+  padding: 2vh;
+}
+
+.message-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .message-input {
+
+  }
+  .character-count {
+
+  }
+}
+
+.message-container-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  button {
+    margin: 10px;
+    
+  }
+}
+
+
+
+// Media Query
+// .send-message-container {
+//   display: flex;
+//   flex-direction: row;
+// }
