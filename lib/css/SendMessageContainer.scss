@@ -2,18 +2,26 @@
 
 .send-message-container {
   background-color: $main-dark-color;
-  padding: 2vh;
+  align-content: flex-end;
+}
+
+.current-user {
+  width: 100%;
+  background-color: $main-medium-dark-color;
+  padding: 10px;
 }
 
 .message-input-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  padding: 10px;
   .message-input {
 
   }
   .character-count {
-
+    color: white;
   }
 }
 
@@ -23,7 +31,12 @@
   justify-content: center;
   button {
     margin: 10px;
-    
+  }
+  .submit-button{
+    background-color: $alternate-color-3;
+  }
+  .clear-button{
+    background-color: $alternate-color-4;
   }
 }
 
