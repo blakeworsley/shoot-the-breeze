@@ -9,7 +9,6 @@ body {
 .application {
   height: 100vh;
   width: 100vw;
-  position: relative;
 }
 
 button,
@@ -18,6 +17,7 @@ input {
   border: none;
   border-radius: 5px;
   font-family: $main-font;
+  font-size: $main-font-size;
 }
 
 input {
@@ -27,5 +27,5 @@ input {
 button {
   color: white;
   background-color: $main-button-color;
-  width: 100px;
+  min-width: 100px;
 }
