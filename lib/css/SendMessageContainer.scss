@@ -3,6 +3,10 @@
 .send-message-container {
   background-color: $main-dark-color;
   align-content: flex-end;
+
+  h2{
+    color: white;
+  }
 }
 
 .current-user {
@@ -26,21 +30,43 @@
 }
 
 .message-container-buttons {
+
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   button {
     margin: 10px;
   }
   .submit-button{
     background-color: $alternate-color-3;
+    &:hover{
+      background-color: $lighter-color-3;
+    }
+    &:disabled{
+      background-color:grey;
+    }
   }
   .clear-button{
     background-color: $alternate-color-4;
+    &:hover{
+      background-color: $lighter-color-4;
+    }
+    &:disabled{
+      background-color:grey;
+    }
   }
 }
 
+@media screen and (max-width: 650px) {
+  .users-container{
+    display:none;
+  }
 
+  .current-user {
+    display:none;
+  }
+}
 
 // Media Query
 // .send-message-container {

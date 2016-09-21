@@ -22,10 +22,15 @@ input {
 
 input {
   background-color: $main-medium-color;
+  margin-right: 20px;
 }
 
 button {
   color: white;
   background-color: $main-button-color;
+  margin: 10px;
   min-width: 100px;
+    &:hover{
+      background-color: $lighter-main-button-color;
+    }
 }

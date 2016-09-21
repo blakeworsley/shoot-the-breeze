@@ -9,10 +9,15 @@
     width: 100%;
     background-color: $main-dark-color;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
+
+    h1{
+      color:white;
+      font-weight: 700;
+    }
   }
 
   .main {
@@ -21,7 +26,6 @@
     flex-direction: row;
   }
 }
-
 
 .messages {
   flex: 5;
@@ -44,7 +48,17 @@
   background-color: $main-medium-color;
 }
 
+@media screen and (max-width: 650px) {
 
+  .message-container{
+    .header{
+      flex-direction: column;
+    }
+    h1{
+      display:none;
+    }
+  }
+}
 //Media Query
 //
 // .header {
