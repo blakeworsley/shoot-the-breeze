@@ -59,10 +59,6 @@ describe('CurrentUser', () => {
       const wrapper = shallow(<CurrentUser />);
       assert.equal(wrapper.type(), 'section');
     });
-    it('renders an <h2>', () => {
-      const wrapper = shallow(<CurrentUser />);
-      assert.lengthOf(wrapper.find('h2'), 1);
-    });
   });
 });
 
