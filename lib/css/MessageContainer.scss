@@ -51,6 +51,17 @@
 .users-container {
  flex: 1;
  background-color: $main-medium-color;
+ padding: 10px;
+
+   .users-list{
+     font-weight: 700;
+
+   }
+
+  .users-container-user{
+    padding: 10px;
+  }
+
 }
 
 @media screen and (max-width: 675px) {
@@ -65,9 +76,3 @@
    }
  }
 }
-//Media Query
-//
-// .header {
-//   display: flex;
-//   flex-direction: row;
-// }
