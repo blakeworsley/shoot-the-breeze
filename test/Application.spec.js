@@ -13,6 +13,8 @@ describe('Application', () => {
     assert.equal(shallowWrapper.type(), 'section');
   });
 
+  
+
   // it('allows us to set default a state', () => {
   //
   //   assert.equal(mountWrapper.state('messages'), null);
