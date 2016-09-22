@@ -1,5 +1,6 @@
 @import './variables';
-.sign-in{
+
+.sign-in {
  background-color: red;
 }
 
@@ -19,8 +20,8 @@
    padding: 10px;
    flex: 1.5;
 
-   h1{
-     color:white;
+   h1 {
+     color: white;
      font-weight: 700;
    }
  }
@@ -33,15 +34,18 @@
 }
 
 .messages {
- flex: 5;
+ flex: 3;
  overflow-y: scroll;
 }
+
 .message {
  padding: 5px;
  line-height: 1.2em;
+
  .message-date {
    color: $alternate-color-1;
  }
+
  .name {
    color: $alternate-color-2;
    font-weight: 500;
@@ -49,30 +53,29 @@
 }
 
 .users-container {
- flex: 1;
+ flex: 2;
  background-color: $main-medium-color;
  padding: 10px;
+ overflow-y: scroll;
 
-   .users-list{
-     font-weight: 700;
+ .users-list {
+   font-weight: 700;
+ }
 
-   }
-
-  .users-container-user{
-    padding: 10px;
-  }
-
+ .users-container-user {
+   padding: 10px;
+ }
 }
-
 @media screen and (max-width: 675px) {
-
- .message-container{
-   .header{
+ .message-container {
+   .header {
      flex-direction: column;
      flex: 2;
    }
-   h1{
-     display:none;
+
+   h1 {
+     display: none;
    }
  }
+
 }
